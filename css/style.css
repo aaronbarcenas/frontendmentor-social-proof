@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Spartan', sans-serif;
+}
+
+.vdm {
+  color: hsl(300, 43%, 22%); 
+  color: hsl(333, 80%, 67%);
+  color: hsl(303, 10%, 53%);
+  color: hsl(300, 24%, 96%);
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background: url(../images/bg-pattern-top-mobile.svg) left top no-repeat,
+              url(../images/bg-pattern-bottom-mobile.svg) right bottom no-repeat;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1399px) {
+  #encabezado h1 {
+    color:  hsl(300, 43%, 22%);
+    text-align: center;
+    padding: 50px 25px 30px 25px;
+    line-height: 92%;
+    letter-spacing: -.5px;
+  }
+  
+  #encabezado p {
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    padding: 0px 18px 50px;
+    font-size: 15px;
+  }
+  
+  .estrellas {
+    background-color: #f7f2f8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin: 15px 15px 15px;
+    height: 80px;
+    font-weight: 700;
+    width: 350px;
+  }
+
+  .estrellas div p {
+    margin-top: 7px;
+  }
+
+  #tarjeta1 {
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 15px 15px;
+    width: 350px;
+  }
+
+  #photo {
+    
+  }
+
+  #tarjeta1 div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 30px;
+  }
+
+  #names {
+    padding-top: 8px !important;
+  }
+
+  #tarjeta1 div div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 0;
+  }
+
+  #text {
+    color: hsl(333, 70%, 50%) !important;
+    padding-top: 2px;
+  }
+
+  #tarjeta1 div div p {
+    color: hsl(300, 35%, 96%);
+  }
+  
+
+  .image {
+    border-radius: 50%;
+    height: 50px;
+    
+  }
+
+  #note {
+    color: hsl(300, 25%, 75%);
+    padding: 5px 30px 30px;
+    line-height: 25px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+  #first-div {
+    display: flex;
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("bg-pattern-top-desktop.svg");
+    padding-top: 60px;
+  }
+
+  #encabezado {
+    width: 50%; 
+  }
+
+  #encabezado h1 {
+    color:  hsl(300, 43%, 22%);
+    padding: 50px 100px 25px;
+    line-height: 92%;
+    letter-spacing: -.5px;
+    font-size: 50px;
+  }
+  
+  #encabezado p {
+    color: hsl(303, 10%, 53%);
+    padding: 0px 100px 50px;
+    font-size: 16px;
+  }
+  
+  #second-div {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .estrellas {
+    background-color: #f7f2f8;
+    color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin: 5px 0px 26px 0;
+    height: 50px;
+    font-weight: 600;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px
+  }
+
+  .estrellas div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .starts svg {
+    padding-right: 7px;
+  }
+
+  .meddle {
+    margin-left: 30px;
+  }
+
+  .ending {
+    margin-left: 60px;
+  }
+
+  #footer {
+    display: flex;
+    margin: 50px 100px 0px 100px;
+    justify-content: space-between;
+    width: 76%;
+  }
+
+  #tarjeta1 {
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 325px;
+  }
+
+
+  #tarjeta1 div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 30px;
+  }
+
+  #names {
+    padding-top: 8px !important;
+  }
+
+  #tarjeta1 div div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 0;
+  }
+
+  #text {
+    color: hsl(333, 70%, 50%) !important;
+    padding-top: 2px;
+  }
+
+  #tarjeta1 div div p {
+    color: hsl(300, 35%, 96%);
+  }
+  
+
+  .image {
+    border-radius: 50%;
+    height: 50px;
+    
+  }
+
+  #note {
+    color: hsl(300, 25%, 75%);
+    padding: 5px 30px 30px;
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+  .dos {
+    transform: translateY(20px);
+  }
+
+  .tres {
+    transform: translateY(40px);
+  }
+}
